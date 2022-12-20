@@ -1,0 +1,545 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 128, 255), rgb(53, 160, 241), rgb(94, 194, 219), rgb(164, 218, 242));
+}
+
+.nav-tab {
+    display: flex;
+    position: fixed;
+    z-index: +4;
+    width: 30vw;
+    border: 1px solid rgb(4, 163, 255);
+    border-radius: 40px;
+    margin: 87vh auto auto 30vw;
+    padding: 2vh 4vh 2vh 4vh;
+    background-color: rgb(4, 163, 255);
+}
+
+.nav-tab button {
+    border: none;
+    background-color: rgb(4, 163, 255);
+    margin: auto 2vh auto 2vh;
+    border-radius: 50%;
+    position: relative;
+    z-index: +5;
+}
+
+.nav-tab img {
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    background-color: rgb(4, 163, 255);
+    border-radius: 50%;
+}
+
+.nav-tab img:hover {
+    box-shadow: 2px 3px 5px black;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-left h1 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 32vw;
+    margin: 1vh 1vw 1vh 30vw;
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: 6vh;
+}
+
+.intro-content h3 {
+    color: rgb(0, 149, 255);
+    font-size: 7vh;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 15vh 5vh 3vh 5vh;
+    text-shadow: 1px 2px 5px blue;
+}
+
+.intro-content h3:hover {
+    text-shadow: 3px 4px 9px rgb(0, 153, 255);
+}
+
+.intro-content p {
+    margin: auto auto auto 5vw;
+    font-size: 12vh;
+    font-family: 'Caramel', cursive;
+    color: rgb(0, 106, 255);
+    text-shadow: 1px 2px 5px rgb(0, 183, 255);
+}
+
+.intro-content p:hover {
+    text-shadow: 3px 6px 12px rgb(0, 255, 221);
+}
+
+.intro-right {
+    display: flex;
+    flex-direction: column;
+    margin: 30vh 15vw auto auto;
+}
+
+.social {
+    display: flex;
+}
+
+.social p {
+    color: rgb(250, 250, 250);
+    margin: auto 3vh auto auto;
+    font-size: 2.5vh;
+}
+
+#linkedin {
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px black;
+    margin: 1vh auto 1vh auto;
+}
+
+#linkedin:hover {
+    box-shadow: 2px 3px 8px black;
+}
+
+#twitter {
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px black;
+    margin: 1vh auto 1vh auto;
+}
+
+#twitter:hover {
+    box-shadow: 2px 3px 8px black;
+}
+
+#github {
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px black;
+    background-color: aliceblue;
+    margin: 1vh auto 1vh auto;
+}
+
+#github:hover {
+    box-shadow: 2px 3px 8px black;
+}
+
+#insta {
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px black;
+    margin: 1vh auto 1vh auto;
+}
+
+#insta:hover {
+    box-shadow: 2px 3px 8px black;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction h3 {
+    font-size: 4vh;
+    margin-top: 7vh;
+    color: rgb(0, 136, 255);
+    font-family: 'Merriweather', serif;
+}
+
+.about-me {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.about-me img {
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    z-index: +1;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 11vh auto auto 10vw;
+}
+
+.about-me p {
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+    margin: 11vh auto auto 40vw;
+    font-size: 3vh;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 238, 0);
+    text-shadow: 1px 1px 1px rgb(239, 239, 32);
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience h3 {
+    font-size: 4vh;
+    margin-top: 7vh;
+    color: rgb(0, 136, 255);
+    font-family: 'Merriweather', serif;
+}
+
+.web-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 106, 255);
+    border: none;
+    border-radius: 10px;
+    width: 24vw;
+    box-shadow: 2px 3px 5px rgb(0, 183, 255);
+}
+
+.web-dev:hover {
+    box-shadow: 3px 5px 7px rgb(0, 0, 0);
+}
+
+.web-dev h3 {
+    font-size: 2.5vh;
+    margin-top: 3vh;
+    color: rgb(239, 244, 248);
+    font-family: 'Merriweather', serif;
+}
+
+.certi-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.certi-list li {
+    color: rgb(0, 225, 255);
+}
+
+.certi-list li p {
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 225, 255);
+    font-weight: bold;
+}
+
+.certi-list li button {
+    border: none;
+    background-color: rgb(0, 106, 255);
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 225, 255);
+    font-size: 2.2vh;
+    font-weight: bold;
+    margin: 1vh auto auto auto;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services h3 {
+    color: rgb(0, 136, 255);
+    font-size: 4vh;
+    margin-top: 7vh;
+    font-family: 'Merriweather', serif;
+}
+
+.service-tab {
+    display: flex;
+}
+
+.front-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 106, 255);
+    margin: auto 10vh auto auto;
+    width: 24vw;
+    box-shadow: 2px 3px 5px rgb(0, 183, 255);
+}
+
+.front-end:hover {
+    box-shadow: 3px 5px 7px rgb(0, 0, 0);
+}
+
+.head-front {
+    display: flex;
+    border: 2px solid aqua;
+    background-color: aqua;
+    width: 18vw;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.head-front h4 {
+    font-size: 2.5vh;
+    margin-top: 3vh;
+    align-content: center;
+    color: rgb(0, 106, 255);
+    font-family: 'Merriweather', serif;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-list ul li {
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 225, 255);
+    width: 18vw;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.designing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 106, 255);
+    margin: auto 10vh auto auto;
+    width: 24vw;
+    box-shadow: 2px 3px 5px rgb(0, 183, 255);
+}
+
+.designing:hover {
+    box-shadow: 3px 5px 7px rgb(0, 0, 0);
+}
+
+.head-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid aqua;
+    background-color: aqua;
+    width: 18vw;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+
+.head-design h4 {
+    font-size: 2.5vh;
+    margin-top: 3vh;
+    align-content: center;
+    color: rgb(0, 106, 255);
+    font-family: 'Merriweather', serif;
+}
+
+.recent-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent-works h3 {
+    color: rgb(0, 136, 255);
+    font-size: 4vh;
+    margin-top: 7vh;
+    font-family: 'Merriweather', serif;
+}
+
+.project-tab {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.insta-clone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 106, 255);
+    margin: auto 10vh auto auto;
+    width: 22vw;
+    height: 48vh;
+    box-shadow: 2px 3px 5px rgb(0, 183, 255);
+}
+
+.insta-clone:hover{
+    box-shadow: 3px 4px 7px rgb(0, 0, 0);
+}
+
+.insta-clone img {
+    width: 12vw;
+    height: 20vh;
+    margin: 2vh auto auto auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.insta-clone p{
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 225, 255);
+    width: 18vw;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.insta-buttons button{
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(0, 183, 255);
+    font-size: 2vh;
+    margin: auto 2vh 1vh 2vh;
+    width: 12vh;
+    height: 4vh;
+    box-shadow: 2px 3px 5px rgb(0, 247, 255);
+}
+
+.insta-buttons button:hover{
+    box-shadow: 3px 4px 7px rgb(0, 0, 0);
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 106, 255);
+    margin: auto 10vh auto auto;
+    width: 22vw;
+    height: 52vh;
+    box-shadow: 2px 3px 5px rgb(0, 183, 255);
+}
+
+.newsletter:hover{
+    box-shadow: 3px 4px 7px rgb(0, 0, 0);
+}
+
+.newsletter img {
+    width: 12vw;
+    height: 20vh;
+    margin: 2vh auto auto auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter p{
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 225, 255);
+    width: 18vw;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.newsletter-buttons button{
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(0, 183, 255);
+    font-size: 2vh;
+    margin: auto 2vh 1vh 2vh;
+    width: 12vh;
+    height: 4vh;
+    box-shadow: 2px 3px 5px rgb(0, 247, 255);
+}
+
+.newsletter-buttons button:hover{
+    box-shadow: 3px 4px 7px rgb(0, 0, 0);
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 106, 255);
+    margin: auto 10vh auto auto;
+    width: 22vw;
+    height: 48vh;
+    box-shadow: 2px 3px 5px rgb(0, 183, 255);
+}
+
+.calculator:hover{
+    box-shadow: 3px 4px 7px rgb(0, 0, 0);
+}
+
+.calculator img {
+    width: 12vw;
+    height: 20vh;
+    margin: 2vh auto auto auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.calculator p{
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 225, 255);
+    width: 18vw;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.calculator-buttons button{
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(0, 183, 255);
+    font-size: 2vh;
+    margin: auto 2vh 1vh 2vh;
+    width: 12vh;
+    height: 4vh;
+    box-shadow: 2px 3px 5px rgb(0, 247, 255);
+}
+.calculator-buttons button:hover{
+    box-shadow: 3px 4px 7px rgb(0, 0, 0);
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid blue;
+    background-image: linear-gradient(to right, rgba(34, 240, 240, 0.91), rgba(94, 233, 233, 0.882), rgba(158, 228, 228, 0.849));
+    margin: 15vh 0px 0px 0px;
+    height: 18vw;
+}
+
+.my-name{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+}
+
+.name h2{
+    font-size: 4.5vh;
+}
+
+.name h3{
+    font-size: 3vh;
+}
+
+.tabs{
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.tabs p{
+    margin: auto 2vh auto 2vh;
+    font-size: 2.5vh;
+}
