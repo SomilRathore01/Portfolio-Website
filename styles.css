@@ -128,6 +128,7 @@ header {
 
 .intro {
     padding-left: 20px;
+    padding-bottom: 20px;
     border: 2px solid rgb(3, 72, 95);
     border-radius: 20px;
     width: 300px;
